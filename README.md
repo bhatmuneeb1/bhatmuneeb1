@@ -1,16 +1,16 @@
 Hi 👋 My name is Muneeb Amin
 ============================
 
-CyberSecurity Expert
+CyberSecurity Researcher
 --------------------
 
-A Fully Cyber Geek. OSCP | CEH Penetration Tester Bug Hunter CyberSecurity Expert
+A Fully Cyber Geek. OSCP | CEH Penetration Tester Bug Hunter CyberSecurity Researcher
 
 * 🌍  I'm based in Kashmir
 * ✉️  You can contact me at [bhatmuneebbussiness@gmail.com](mailto:bhatmuneebbussiness@gmail.com)
 * 🧠  I'm learning CyberSecurity
 * 🤝  I'm open to collaborating on Interested Projects
-* ⚡  Cyber Security Researcher
+* ⚡  Cyber Security Enthusiast
 
 <a href="https://www.twitter.com/bhatmuneeb_" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitter/follow/bhatmuneeb_?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917"
