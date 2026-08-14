@@ -31,12 +31,6 @@ A privacy-conscious IPv4/IPv6 geolocation CLI that queries a user-supplied local
 
 **Design goals:** no telemetry, no automatic network requests, validated address input, JSON output, automated tests, CI, and clear limitations around GeoIP accuracy.
 
-### [Cyber Patrolling Basics](https://github.com/bhatmuneeb1/cyber-patrol-basics)
-
-A React/TypeScript browser-based cyber-awareness training deck. It provides 23 interactive slides with keyboard navigation, accessible controls, and shareable `#slide=N` deep links for training sessions.
-
-**Maintainer work:** reusable presentation navigation, neutral public-training attribution, accessibility improvements, project documentation, and automated lint/build CI.
-
 ## Upstream contribution focus
 
 I am building a stronger upstream contribution record around work that is useful to real projects:
