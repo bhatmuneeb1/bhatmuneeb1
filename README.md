@@ -2,10 +2,10 @@
 
 ### Security Researcher · Open-Source Contributor · Developer
 
-I work on software security, vulnerability research, developer tooling, and practical automation. I am actively moving more of my work into public open source: maintainable tools, tests, hardening changes, reproducible bug fixes, and upstream contributions.
+I work on software security, vulnerability research, developer tooling, privacy-conscious utilities, and practical automation. I am actively moving more of my work into public open source: maintainable tools, tests, hardening changes, reproducible bug fixes, and upstream contributions.
 
 - 🔐 Application security, systems security, secure software development, and vulnerability research
-- 🛠️ Building and maintaining open-source security and privacy tooling
+- 🛠️ Building and maintaining open-source security, privacy, and training tooling
 - 🧪 Reproducible testing, source review, fuzzing, CI, and defensive hardening
 - 🌱 Contributing fixes and tests upstream where they are useful to maintainers
 - 🌍 Kashmir, India
@@ -23,13 +23,19 @@ A Python CLI for authorized subdomain-reconnaissance workflows. It coordinates e
 
 A dependency-free local repository security-hygiene scanner for maintainers and CI. It looks for high-signal mistakes such as private-key material, common token formats, risky GitHub Actions settings, hard-coded passwords, and Python subprocess calls that execute through a shell.
 
-**Design goals:** local-only scanning, machine-readable JSON, CI-friendly exit behavior, transparent rules, tests, and no telemetry.
+**Design goals:** local-only scanning, text/JSON/SARIF output, CI-friendly exit behavior, transparent rules, tests, and no telemetry.
 
 ### [Offline IP Geolocation](https://github.com/bhatmuneeb1/location_tracker)
 
 A privacy-conscious IPv4/IPv6 geolocation CLI that queries a user-supplied local MaxMind database instead of sending addresses to a hosted lookup API.
 
 **Design goals:** no telemetry, no automatic network requests, validated address input, JSON output, automated tests, CI, and clear limitations around GeoIP accuracy.
+
+### [Cyber Patrolling Basics](https://github.com/bhatmuneeb1/cyber-patrol-basics)
+
+A React/TypeScript browser-based cyber-awareness training deck. It provides 23 interactive slides with keyboard navigation, accessible controls, and shareable `#slide=N` deep links for training sessions.
+
+**Maintainer work:** reusable presentation navigation, neutral public-training attribution, accessibility improvements, project documentation, and automated lint/build CI.
 
 ## Upstream contribution focus
 
@@ -41,19 +47,19 @@ I am building a stronger upstream contribution record around work that is useful
 - build and CI reliability
 - dependency and supply-chain security
 - privacy-preserving developer tooling
-- documentation tied to substantive code changes
+- accessibility and developer documentation tied to substantive changes
 
 ## Languages & tooling
 
-`Python` · `Go` · `C/C++` · `Java` · `JavaScript` · `Rust` · `Solidity` · `Git` · `Linux`
+`Python` · `Go` · `C/C++` · `Java` · `JavaScript` · `TypeScript` · `Rust` · `Solidity` · `Git` · `Linux`
 
 Security interests include source-code auditing, fuzzing, application security, firmware and systems security, cryptography, blockchain security, and software supply-chain hardening.
 
 ## Contributing
 
-Useful issues and pull requests are welcome on the projects I maintain. Each actively maintained tool includes contribution and security-reporting guidance.
+Useful issues and pull requests are welcome on the projects I maintain. Actively maintained tools include contribution or security-reporting guidance where appropriate.
 
-If you maintain an open-source project with a well-scoped security, testing, build, or reliability issue that could use help, feel free to reach out.
+If you maintain an open-source project with a well-scoped security, testing, build, accessibility, or reliability issue that could use help, feel free to reach out.
 
 ---
 
