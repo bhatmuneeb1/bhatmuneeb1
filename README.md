@@ -2,52 +2,58 @@
 
 ### Security Researcher · Open-Source Contributor · Developer
 
-I work on software security, vulnerability research, developer tooling, and practical automation. I am currently putting more of my security work into public open source: maintainable tools, tests, hardening changes, reproducible bug fixes, and upstream contributions.
+I work on software security, vulnerability research, developer tooling, and practical automation. I am actively moving more of my work into public open source: maintainable tools, tests, hardening changes, reproducible bug fixes, and upstream contributions.
 
-- 🔐 Interested in application security, systems security, secure software development, and vulnerability research
-- 🛠️ Building and maintaining open-source security tooling
-- 🧪 Focused on reproducible testing, code review, fuzzing, and defensive hardening
-- 🌱 Actively contributing more fixes and tests to upstream open-source projects
-- 🌍 Based in Kashmir, India
-- 📫 Contact: **bhatmuneeb49@gmail.com**
+- 🔐 Application security, systems security, secure software development, and vulnerability research
+- 🛠️ Building and maintaining open-source security and privacy tooling
+- 🧪 Reproducible testing, source review, fuzzing, CI, and defensive hardening
+- 🌱 Contributing fixes and tests upstream where they are useful to maintainers
+- 🌍 Kashmir, India
+- 📫 **bhatmuneeb49@gmail.com**
 
-## Featured project
+## Maintained projects
 
 ### [Subscan](https://github.com/bhatmuneeb1/subscan)
 
-An open-source Python CLI for authorized subdomain reconnaissance workflows. Subscan coordinates established reconnaissance tools, normalizes their output, and reduces repetitive manual work.
+A Python CLI for authorized subdomain-reconnaissance workflows. It coordinates established enumeration and probing tools while keeping target input validated and process execution out of the shell.
 
-Recent maintenance work includes:
+**Maintainer work:** safer subprocess execution, domain validation, packaging, automated tests, GitHub Actions CI, contributor/security docs, changelog, and MIT licensing.
 
-- safer process execution without shell-interpolated target input;
-- target-domain validation;
-- modern Python packaging;
-- automated unit tests;
-- GitHub Actions CI across multiple Python versions;
-- an MIT license, security policy, contributor guide, and changelog.
+### [RepoGuard](https://github.com/bhatmuneeb1/tool)
 
-## Current open-source goals
+A dependency-free local repository security-hygiene scanner for maintainers and CI. It looks for high-signal mistakes such as private-key material, common token formats, risky GitHub Actions settings, hard-coded passwords, and Python subprocess calls that execute through a shell.
 
-I am working toward a stronger upstream contribution record by focusing on changes that are useful to maintainers and users:
+**Design goals:** local-only scanning, machine-readable JSON, CI-friendly exit behavior, transparent rules, tests, and no telemetry.
 
-- security and correctness fixes;
-- regression tests for real bugs;
-- fuzzing and parser hardening;
-- build and CI reliability;
-- dependency and supply-chain security;
-- developer documentation tied to substantive changes.
+### [Offline IP Geolocation](https://github.com/bhatmuneeb1/location_tracker)
 
-## Languages & tools
+A privacy-conscious IPv4/IPv6 geolocation CLI that queries a user-supplied local MaxMind database instead of sending addresses to a hosted lookup API.
+
+**Design goals:** no telemetry, no automatic network requests, validated address input, JSON output, automated tests, CI, and clear limitations around GeoIP accuracy.
+
+## Upstream contribution focus
+
+I am building a stronger upstream contribution record around work that is useful to real projects:
+
+- security and correctness fixes
+- regression tests for real bugs
+- parser and input hardening
+- build and CI reliability
+- dependency and supply-chain security
+- privacy-preserving developer tooling
+- documentation tied to substantive code changes
+
+## Languages & tooling
 
 `Python` · `Go` · `C/C++` · `Java` · `JavaScript` · `Rust` · `Solidity` · `Git` · `Linux`
 
-Security interests include source-code auditing, fuzzing, web/application security, firmware and systems security, cryptography, and blockchain security.
+Security interests include source-code auditing, fuzzing, application security, firmware and systems security, cryptography, blockchain security, and software supply-chain hardening.
 
-## Open source
+## Contributing
 
-I welcome useful issues and pull requests on the projects I maintain. For Subscan contribution guidance, see its [CONTRIBUTING.md](https://github.com/bhatmuneeb1/subscan/blob/main/CONTRIBUTING.md).
+Useful issues and pull requests are welcome on the projects I maintain. Each actively maintained tool includes contribution and security-reporting guidance.
 
-If you maintain an open-source project and have a well-scoped security, testing, or reliability issue that could use help, feel free to reach out.
+If you maintain an open-source project with a well-scoped security, testing, build, or reliability issue that could use help, feel free to reach out.
 
 ---
 
